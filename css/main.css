@@ -97,6 +97,8 @@ textarea {
     font-size: 1em;
     font-family: 'Open Sans', sans-serif;
     text-align: left;
+    color: #e2e3ed;
+    
    }
     
    ul, 
@@ -109,10 +111,17 @@ textarea {
      text-decoration: none;
      
    }
+
+   h1{
+    font-size: 2.25em;
+    font-family: 'poppins', sans-serif;
+    font-weight: normal;
+   }
     
    h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 1.875em;
+    font-weight: normal;
    }
     
    h3, 
@@ -120,6 +129,7 @@ textarea {
     font-family: 'Poppins', sans-serif;
     font-size: 1.125em;
     margin: 20px 0;
+    font-weight: normal;
    }
     
    p {
@@ -157,9 +167,9 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: red solid 1px;
   flex-flow: row wrap;
   padding: 15px 0;
+  background-color: #202322;
 }
 
 header .content-wrapper {
@@ -167,7 +177,6 @@ header .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  border: green solid 1px;
 }
 
 header nav{
@@ -176,22 +185,31 @@ header nav{
   align-items: center;
   flex-flow: row wrap;
   width: 60%;
-  border: red solid 2px;
 }
 
 header nav ul{
   display: flex;
   list-style: none;
   justify-content: space-around;
-  border: red solid 2px;
   width: 100%;
+}
+
+header nav ul li{
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .header-divider{
   width:100%;
   height: 1px;
   margin: 10px 0 20px 0;
-  border: orange solid 2px;
+}
+
+.hero-area .content-wrapper h1{
+  font-size: 2.25em;
+  color: #e2e3ed;
+  font-family: 'poppins', sans-serif;
+  font-weight: normal;
 }
 
 /** hero area **/
@@ -209,6 +227,7 @@ aside{
   justify-content: center;
   flex-flow: row wrap;
   align-items: center;
+  background-color: #527158;
 }
 
 
@@ -238,12 +257,12 @@ aside{
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 .reviews h3{
   width: 53%;
   margin:20px 0;
-  border: red solid 2px;
 }
 
 /*================ABOUT PAGE ================*/
@@ -255,6 +274,7 @@ aside{
   align-items: center;
   justify-content: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 /**** Contact style*****/
@@ -263,6 +283,7 @@ aside{
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #2a423a;
 }
 
 /*================FAQ PAGE====================*/
@@ -272,6 +293,7 @@ aside{
   align-items: center;
   justify-content: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 .faq-content{
@@ -288,15 +310,14 @@ footer{
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-color: #202322;
 }
 
 footer .content-wrapper{
  
-  border: red solid 1px;
 }
 
 .footer-content .contact{
-  border: green solid 2px;
   display:flex;
   justify-content: center;
   align-items: center;
@@ -314,6 +335,31 @@ footer .content-wrapper{
   flex-flow: column wrap;
 }
 
+aside .form {
+  margin-top: 30px;
+}
+ 
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+ 
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+}
 
 /* ==========================================================================
    Helper classes
@@ -494,7 +540,6 @@ footer .contact{
 
 footer .social{
   width: 45%;
-  border: orange solid 2px
 }
 
 
@@ -522,8 +567,6 @@ footer .social{
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  
-  
 }
 
 
