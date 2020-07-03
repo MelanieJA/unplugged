@@ -150,6 +150,11 @@ textarea {
     font-style: normal;
 
    }
+
+   .features i {
+    font-size: 3.75em;
+          margin-bottom: 40px;
+  }
    
     
    .content-wrapper {
@@ -540,6 +545,10 @@ header nav{
   display: none;
 }
 
+header figure {
+  width: 30%;
+}
+
 /*** Aside section***/
 
 
@@ -585,6 +594,15 @@ header nav{
   width: 49%;
 }
 
+.reviews article figure,
+  .reviews article div {
+    width: 49%;
+  }
+
+  .reviews h3 {
+    width: 75%;
+    margin: 0;
+  }
 
 /***footer section ***/
 
@@ -670,8 +688,13 @@ header .content-wrapper{
 /*** hero-area **/
 .hero-area .content-wrapper h1{
 width: 60%;
-
 }
+
+.hero-area h1 {
+  font-size: 3.75em;
+  width: 80%;
+}
+
 
 /* aside area */
 
