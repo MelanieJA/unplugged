@@ -86,7 +86,7 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-   
+
 
    /* General Styles */
     
@@ -401,10 +401,8 @@ input[type=button] {
   flex-flow: row wrap;
 }
 
-.faq h2{
 
 
-}
 
 /***Footer Style****/
 
@@ -460,7 +458,7 @@ footer .social h4{
 }
 
 footer .social-icons p {
-  margin: 20px;
+  margin: 14px 20px;
 }
 
 footer .social-icons p i {
